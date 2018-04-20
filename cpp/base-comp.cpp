@@ -24,8 +24,8 @@ using namespace std;
 #define yes cout<<"yes"<<endl
 #define no cout<<"no"<<endl
 #define ret return
-#define lb(v,n) lower_bound(v.begin(),v.end,n)
-#define ub(v,n) upper_bound(v.begin(),v.end,n)
+#define lb(v,n) lower_bound(v.begin(),v.end(),n)
+#define ub(v,n) upper_bound(v.begin(),v.end(),n)
 
 
 ////////////////////////////////////////////////////////////
