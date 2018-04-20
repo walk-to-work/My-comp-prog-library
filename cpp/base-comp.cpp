@@ -24,10 +24,10 @@ using namespace std;
 #define yes cout<<"yes"<<endl
 #define no cout<<"no"<<endl
 #define ret return
-#define C(i) cin>>i
-#define C2(i,j) cin>>i>>j
-#define C3(i,j,k) cin>>i>>j>>k
-#define C4(i,j,k,m) cin>>i>>j>>k>>m
+#define lb(v,n) lower_bound(v.begin(),v.end,n)
+#define ub(v,n) upper_bound(v.begin(),v.end,n)
+
+
 ////////////////////////////////////////////////////////////
 
 int main(){
