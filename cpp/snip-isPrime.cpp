@@ -1,16 +1,19 @@
-bool isPrime(int num){
-	if(num < 2)
+template<class X> bool is_prime( X n ){
+	if(n <= 0 )
 		return false;
-	else if(num == 2 )
+	else if( n == 1 )
+		return false;
+	else if( n == 2 )
 		return true;
-	else if(num % 2 == 0)
-		return false;
-
-	double sqrtNum = sqrt(num);
-	for(int i = 3 ; i <= sqrtNum ; i += 2 ){
-		if(num % i == 0 )
+	else{
+		X limit = sqrt(n)+1;
+		if( n % 2 == 0 )
 			return false;
+		for(X i = 3 ; i <= limit ; i += 2 ){
+			if( n % i == 0 )
+				return false;
+		}
 	}
-	
 	return true;
 }
+

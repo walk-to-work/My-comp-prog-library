@@ -26,7 +26,8 @@ using namespace std;
 #define ret return
 #define lb(v,n) lower_bound(v.begin(),v.end(),n)
 #define ub(v,n) upper_bound(v.begin(),v.end(),n)
-
+#define mae(v) max_element(v.begin(),v.end())
+#define mie(v) min_element(v.begin(),v.end())
 
 ////////////////////////////////////////////////////////////
 
