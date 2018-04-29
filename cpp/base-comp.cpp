@@ -29,7 +29,8 @@ using namespace std;
 #define mae(v) max_element(v.begin(),v.end())
 #define mie(v) min_element(v.begin(),v.end())
 #define inf 0x7FFFFFFF
-#define waru 1000000007
+#define mod 1000000007
+typedef long long ll;
 ////////////////////////////////////////////////////////////
 
 int main(){
