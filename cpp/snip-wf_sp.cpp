@@ -40,7 +40,7 @@ void init(){
 
 //経路復元
 void printPath( int start , int goal ){
-	for(int cur = start ; cur != goal ; cur = next[cur][goal] )
+	for(int cur = start ; cur != goal ; cur = nxt[cur][goal] )
 		cout << cur << " ";
 	cout << goal << endl;
 }
