@@ -1,15 +1,4 @@
-#include<iostream>
-#include<iomanip>
-#include<map>
-#include<set>
-#include<string>
-#include<algorithm>
-#include<cmath>
-#include<vector>
-#include<queue>
-#include<stack>
-#include<cstring>
-#include<sstream>
+#include<bits/stdc++.h>
 using namespace std;
  
 #define P(p) cout<<(p)<<endl
